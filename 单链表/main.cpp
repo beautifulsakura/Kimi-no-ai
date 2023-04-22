@@ -15,4 +15,5 @@ int main(){
         printf("%d  ",x);
     }
     Destroy(&head);
+    return 0;
 }
