@@ -10,6 +10,7 @@ int main(){
     for(i=0;i<10;i++){
         ListInsert(&mylist,i,i+1);
     }
+    ListDelete(&mylist,4,&x);
     for(i=0;i<10;i++){
         ListGet(mylist,i,&x);
         printf("%d ",x);
