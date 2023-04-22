@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #define MaxStackSize 100
 typedef int DataType;
 #include "SeqStack.h"
@@ -16,4 +17,6 @@ int main(){
         StackPop(&mystack,&x);
         printf("%d  ",x);
     }
+    system("pause");
+    return 0;
 }

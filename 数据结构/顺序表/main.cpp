@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #define MaxSize 100
 typedef int DataType;
 #include"SeqList.h"
@@ -15,5 +16,6 @@ int main(){
         ListGet(mylist,i,&x);
         printf("%d ",x);
     }
+    system("pause");
     return 0;
 }

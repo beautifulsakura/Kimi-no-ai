@@ -15,5 +15,6 @@ int main(){
         printf("%d  ",x);
     }
     Destroy(&head);
+    system("pause");
     return 0;
 }

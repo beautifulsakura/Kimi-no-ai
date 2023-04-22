@@ -34,5 +34,6 @@ int main(){
     Destroy(&myString1);
     Destroy(&myString2);
     Destroy(&myString3);
+    system("pause");
     return 0;
 }
